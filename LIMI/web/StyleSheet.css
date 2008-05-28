@@ -1,0 +1,66 @@
+body 
+{
+
+}
+.panel
+{
+	vertical-align:top;
+	
+	
+}
+	
+.repeater
+{
+left:25px;
+background-color:White;
+font-size:medium;
+font-style:normal;
+font-family:Bookman Old Style;
+color:Red;
+
+}
+.resultslabel
+{
+	width:100%;
+	background-color:InfoText;
+	color:Blue;
+	font-family:Verdana;
+	font-size:large;
+}	
+.linkbutton
+{
+	
+	border-width:medium;
+	border-style:inset;
+	font-size:large;
+	border-color:Yellow;
+	
+	 
+	  
+}
+#notice
+{
+	background-color:Blue;
+	border:solid 2px black;
+	position:absolute;
+	top:145px;
+	left:570px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	width:300px;
+	z-index:1;
+	visibility:hidden;
+	font-size:16px;
+	
+	
+}
+
+.td_searchresult
+{
+border-color:#77ADC9;
+border-width:1px;
+border-style:solid;
+
+}
