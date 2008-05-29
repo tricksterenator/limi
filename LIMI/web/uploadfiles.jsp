@@ -25,7 +25,7 @@ if ((contentType != null) && (contentType.indexOf("multipart/form-data") >= 0))
 	saveFile = saveFile.substring(0, saveFile.indexOf("\n"));
 	saveFile = saveFile.substring(saveFile.lastIndexOf("\\") + 1,saveFile.indexOf("\""));	
 	saveFile = new String(saveFile.getBytes(target_encoding),"UTF-8");	
-	saveFile = uploadDir+"\\"+saveFile;	
+	saveFile = uploadDir+"//"+saveFile;	
 
 	int lastIndex = contentType.lastIndexOf("=");
 	String boundary = contentType.substring(lastIndex + 1,contentType.length());

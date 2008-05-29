@@ -10,8 +10,15 @@ function loadpage(){
                        text =op.text;
                }
     }
+    if (text == null){
+        //text = "\'No *.m selected!Please upload file first!\'";
+        text = "No *.m file seleted, please upload dataset first!";
+        var url = 'nmessage.jsp?message='+text;
+        new Ajax.Updater('content', url, { method: 'get'});
+    }else {
     var url = 'parse.jsp?fd='+text;
     new Ajax.Updater('content', url, { method: 'get'});
+    }
 }
 
 function ConfirmInsertData_Click(){

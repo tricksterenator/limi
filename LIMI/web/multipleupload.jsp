@@ -38,7 +38,8 @@
 		The same parameters values should be set for EMBED object below. -->
 	<PARAM NAME="FlashVars" VALUE="uploadUrl=uploadfiles.jsp
 	&redirectUploadUrl=result.jsp">
-	<PARAM NAME="BGColor" VALUE="#F8F6E6">
+	<!--PARAM NAME="BGColor" VALUE="#F8F6E6"-->
+        <PARAM NAME="BGColor" VALUE="#FFFFFF">
 	<PARAM NAME="Movie" VALUE="ElementITMultiPowUpload1.7.swf">
 	<PARAM NAME="Src" VALUE="ElementITMultiPowUpload1.7.swf">
 	<PARAM NAME="WMode" VALUE="Window">
@@ -64,7 +65,11 @@
 	<!-- Embed for Netscape,Mozilla/FireFox browsers support. Flashvars parameters are the same.-->
 		<!-- Replace symbols " with the &quot; at all parameters values and 
 		symbols "&" with the "%26" at URL values or &amp; at other values! -->
-	<embed bgcolor="#F8F6E6" id="EmbedFlashFilesUpload" src="ElementITMultiPowUpload1.7.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"	type="application/x-shockwave-flash" width="450" height="350" flashvars="uploadUrl=uploadfiles.jsp
+	<!--embed bgcolor="#F8F6E6" id="EmbedFlashFilesUpload" src="ElementITMultiPowUpload1.7.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"	type="application/x-shockwave-flash" width="450" height="350" flashvars="uploadUrl=uploadfiles.jsp
+	&redirectUploadUrl=result.jsp">
+	</embed-->
+         
+         <embed bgcolor="#FFFFFF" id="EmbedFlashFilesUpload" src="ElementITMultiPowUpload1.7.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"	type="application/x-shockwave-flash" width="450" height="350" flashvars="uploadUrl=uploadfiles.jsp
 	&redirectUploadUrl=result.jsp">
 	</embed>
 
