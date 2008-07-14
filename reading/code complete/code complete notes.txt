@@ -1,0 +1,6 @@
+1. It's hark to strike the balance between too little and too much formality
+   Take a look at the list of software development activities, do you think it's a red tape or not?
+   
+2. The main activities in construction are detailed design, coding, debugging, integration,and developer testing (unit tesing and integration tesing).
+    Are ther any other construction activities not mentioned?
+     
